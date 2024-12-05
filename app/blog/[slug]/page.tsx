@@ -1,9 +1,12 @@
 type Params = {
   params: {
-    slug: string;
-  };
-};
+    slug: string
+  }
+}
 
 export default function Page({ params }: Params) {
-  return <><h1>Slug: {params.slug}</h1> <p>Tien</p></>;
+  return <>
+  <h1>Slug: {params.slug}</h1>
+  <p>Tien</p>
+  </>
 }
